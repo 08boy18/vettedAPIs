@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="data:," />  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 id="location_output">Weather</h2>
+    <h1 id="temp_output">XXº</h1>
+    <div class="more_info_section">
+        <div class="section1">
+            <p id="humidity_output">Humidity: </p>
+        </div>
+
+        <div class="section1">
+            <p id="rain_output">Rain: </p>
+        </div>
+    </div>
+
+    <form id="input">
+        <label for="input">Enter Coordinates</label>
+        <input type="text" id="input_text" name="input">
+        <button type="button" id="submit_button">Submit</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

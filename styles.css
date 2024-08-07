@@ -1,0 +1,11 @@
+body {
+    background-color: #8AA1DB;
+    color: #0C0C0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1{
+    border: 3px solid red;
+}
